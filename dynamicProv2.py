@@ -43,7 +43,7 @@ import serial
 from flask import Flask, jsonify
 
 # ----- SERIAL CONFIG -----
-SERIAL_PORT = "/dev/ttyUSB0"   # change to match Board 3's port
+SERIAL_PORT = "Serial_port"   # change to match Board 3's port
 BAUD_RATE = 115200
 # --------------------------
 
