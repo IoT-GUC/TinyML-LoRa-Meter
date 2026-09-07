@@ -72,8 +72,8 @@ static bool loraOK = false;   // set true once LoRa.begin() succeeds in setup()
 // ---------------------------------------------------------------------------
 //  WiFi
 // ---------------------------------------------------------------------------
-const char* WIFI_SSID     = "IET_Workshop";
-const char* WIFI_PASSWORD = "Ta123456!!";
+const char* WIFI_SSID     = "SSID";
+const char* WIFI_PASSWORD = "WIFI_Password";
 
 // ---------------------------------------------------------------------------
 //  OLED pins (I2C). No RST pin on this board. Failure here is non-fatal --
